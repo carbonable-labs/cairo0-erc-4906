@@ -7,5 +7,5 @@ cairo-path = [
 ]
 
 [contracts]
-ERC721Royalty = ["src/erc2981/presets/ERC721Royalty.cairo"]
+ERC721MetadataUpdate = ["src/erc4906/presets/ERC721MetadataUpdate.cairo"]
 
