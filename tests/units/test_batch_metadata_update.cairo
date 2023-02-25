@@ -3,7 +3,7 @@
 from starkware.cairo.common.cairo_builtins import HashBuiltin
 from starkware.cairo.common.uint256 import Uint256
 
-from src.erc4906.library import ERC4906
+from erc4906.library import ERC4906
 
 @external
 func test_metadata_update{syscall_ptr: felt*, range_check_ptr, pedersen_ptr: HashBuiltin*}() {

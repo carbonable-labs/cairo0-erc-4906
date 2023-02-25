@@ -9,7 +9,7 @@ from openzeppelin.access.ownable.library import Ownable
 from openzeppelin.introspection.erc165.library import ERC165
 from openzeppelin.token.erc721.library import ERC721
 
-from src.erc4906.library import ERC4906
+from erc4906.library import ERC4906
 
 //
 // Constructor

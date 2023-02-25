@@ -8,7 +8,7 @@ from starkware.cairo.common.uint256 import Uint256, uint256_check
 from openzeppelin.introspection.erc165.library import ERC165
 from openzeppelin.token.erc721.library import ERC721
 
-from src.utils.constants.library import IERC4906_ID
+from erc4906.utils.constants.library import IERC4906_ID
 
 @event
 func MetadataUpdate(tokenId: Uint256) {

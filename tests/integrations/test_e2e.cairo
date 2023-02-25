@@ -9,7 +9,7 @@ from starkware.cairo.common.uint256 import Uint256
 
 from openzeppelin.token.erc721.IERC721Metadata import IERC721Metadata
 
-from src.erc4906.IERC4906 import IERC4906
+from erc4906.IERC4906 import IERC4906
 
 const NAME = 'NAME';
 const SYMBOL = 'SYMBOL';
